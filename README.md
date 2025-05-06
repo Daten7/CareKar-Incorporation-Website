@@ -13,10 +13,10 @@ This was a web project that allows users to make requests and also book a servic
 to be continued...
 
 # Frameworks/Tools Used
-i. HTML
-ii. CSS
-iii. Bootstrap
-iv. PHP
-v. XAMPP
+- HTML
+- CSS
+- Bootstrap
+- PHP
+- XAMPP
 
 # Screenshots of the Website
