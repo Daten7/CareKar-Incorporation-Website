@@ -18,5 +18,6 @@ to be continued...
 - Bootstrap
 - PHP
 - XAMPP
+- Visual Studio Code IDE
 
 # Screenshots of the Website
