@@ -21,3 +21,4 @@ to be continued...
 - Visual Studio Code IDE
 
 # Screenshots of the Website
+![image](https://github.com/user-attachments/assets/b4ea52af-f05d-44c8-afdc-ce98dbed65af)
