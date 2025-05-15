@@ -20,6 +20,18 @@ to be continued...
 - XAMPP
 - Visual Studio Code IDE
 
+# Services
+- Diagnostic Test
+- Engine Servicing
+- Tires Replacement
+- Oil Changing
+
+# Features
+- Allows users to book services
+- Newsletters which inform the users of current news regarding CareKar
+- Provides interface through which users can interact with CareKar admins
+- Enables workers to clock in their activities
+
 # Screenshots of the Website
 ![image](https://github.com/user-attachments/assets/b4ea52af-f05d-44c8-afdc-ce98dbed65af)
 ![image](https://github.com/user-attachments/assets/4f7657f7-6e43-4ddf-8dad-1d5a6d694707)
