@@ -33,6 +33,11 @@
     opacity: 1;
 }
 
+.spinner-size {
+    width: 3rem;
+    height: 3rem;
+}
+
 
 /*** Button ***/
 .btn {
@@ -98,7 +103,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -169,7 +174,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -188,7 +193,7 @@
     background: rgba(0, 0, 0, .7);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -380,4 +385,85 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+/* Custom classes to replace inline styles */
+.min-height-400 {
+    min-height: 400px;
+}
+
+.min-height-350 {
+    min-height: 350px;
+}
+
+.height-55 {
+    height: 55px;
+}
+
+.max-width-400 {
+    max-width: 400px;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.border-radius-50 {
+    border-radius: 50px;
+}
+
+.width-45 {
+    width: 45px;
+}
+
+.height-45 {
+    height: 45px;
+}
+
+.width-80 {
+    width: 80px;
+}
+
+.height-80 {
+    height: 80px;
+}
+
+.bg-overlay {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+/* Accessibility improvements */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Social media icons for accessibility */
+.btn-social i::after {
+    content: "";
+    position: absolute;
+    left: -9999px;
+}
+
+.btn-facebook::after {
+    content: "Visit our Facebook page";
+}
+
+.btn-twitter::after {
+    content: "Follow us on Twitter";
+}
+
+.btn-linkedin::after {
+    content: "Connect with us on LinkedIn";
+}
+
+.btn-instagram::after {
+    content: "Follow us on Instagram";
 }
